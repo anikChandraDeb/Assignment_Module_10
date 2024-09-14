@@ -8,7 +8,7 @@ function calculateDifference(number1,number2){
     return Math.abs(number1-number2);
 }
 
-//console.log(calculateDifference(1,10));
+console.log(calculateDifference(1,10));
 
 /*
 2) Write a function named isOdd that takes one argument and returns 
@@ -19,7 +19,7 @@ function isOdd(number){
     return (number%2!=0)?true:false;
 }
 
-//console.log(isOdd(10));
+console.log(isOdd(10));
 
 /*
 3) Write a function named findMin that takes an array of numbers and 
@@ -30,7 +30,7 @@ function findMin(arr){
     return Math.min(...arr);
 }
 
-//console.log(findMin([1,2,3,10,0]));
+console.log(findMin([1,2,3,10,0]));
 
 /*
 4) Write a function named filterEvenNumbers that takes an array of 
@@ -45,7 +45,7 @@ function filterEvenNumbers(arr){
     return evenNumber;
 }
 
-//console.log(filterEvenNumbers([1,2,3,4,10,2,3,5]));
+console.log(filterEvenNumbers([1,2,3,4,10,2,3,5]));
 /*
 5) Write a function named sortArrayDescending that takes an array of 
 numbers and returns a new array sorted in descending order.
@@ -56,7 +56,7 @@ function sortArrayDescending(arr){
     return arr;
 }
 
-//console.log(sortArrayDescending([1,2,3,4,3331,3333,10,44444,44443,1234]));
+console.log(sortArrayDescending([1,2,3,4,3331,3333,10,44444,44443,1234]));
 
 /*
 6) Write a function named lowercaseFirstLetter that takes a string and 
@@ -70,7 +70,7 @@ function lowercaseFirstLetter(str){
     array[0]=array[0].toLowerCase();
     return array.join('');
 }
-//console.log(lowercaseFirstLetter("ABCD"));
+console.log(lowercaseFirstLetter("ABCD"));
 
 /* 
 7) Write a function named countVowels that takes a string and returns 
@@ -90,7 +90,7 @@ function countVowels(string){
     return vowelString.length;
 }
 
-//console.log(countVowels("abcdefghiouA"));
+console.log(countVowels("abcdefghiouA"));
 
 /*
 8) Write a function named findAverage that takes an array of numbers 
@@ -105,4 +105,4 @@ function findAverage(arr){
     return sum/arr.length;
 }
 
-//console.log(findAverage([1,2,3,4]));
+console.log(findAverage([1,2,3,4]));
